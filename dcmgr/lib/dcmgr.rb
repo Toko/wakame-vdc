@@ -65,6 +65,7 @@ module Dcmgr
     autoload :DcNetwork, 'dcmgr/models/dc_network'
     autoload :AccountingLog, 'dcmgr/models/accounting_log'
     autoload :BackupStorage, 'dcmgr/models/backup_storage'
+    autoload :BackupObject, 'dcmgr/models/backup_object'
   end
 
   module Endpoints
